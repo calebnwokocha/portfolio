@@ -12,8 +12,8 @@
   .header {
     padding: 80px;
     text-align: center;
-    background: #E71C31;
-    color: white;
+    background: #F2F2F2;
+    color: black;
     width: 100%;
   }
   
@@ -45,8 +45,8 @@
   
   /* Change color on hover */
   .navbar a:hover {
-    background-color: #E2E2E2;
-    color: black;
+    background-color: #751717;
+    color: white;
   }
   
   /* Column container */
@@ -61,28 +61,46 @@
   
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
-  .side {
-    -ms-flex: 30%; /* IE10 */
-    flex: 30%;
-    background-color: #E2E2E2;
+  .left-side {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    background-color: #F2F2F2;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .right-side {
+    -ms-flex: 15%; /* IE10 */
+    flex: 15%;
+    background-color: #F2F2F2;
     padding: 20px;
     width: 100%;
   }
   
   /* Main column */
   .main {   
-    -ms-flex: 70%; /* IE10 */
-    flex: 70%;
+    -ms-flex: 60%; /* IE10 */
+    flex: 60%;
     background-color: white;
     padding: 20px;
     width: 100%;
+  }
+
+  .main p {
+    max-width: 1000px;
+  }
+
+  .main img {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
   }
 
   /* Footer */
   .footer {
     padding: 20px;
     text-align: center;
-    background: #E71C31;
+    background: #91010B;
     height: 100px;
     width: 100%;
   }
