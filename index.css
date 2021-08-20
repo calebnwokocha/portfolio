@@ -26,6 +26,9 @@
   .navbar {
     overflow: hidden;
     background-color: #91010B;
+    position: -webkit-sticky; /* Safari & IE */
+    position: sticky;
+    top: 0;
   }
   
   /* Style the navigation bar links */
@@ -48,6 +51,17 @@
     background-color: #751717;
     color: white;
   }
+
+  #github-logo {
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+
+  .navbar img {
+    width: 25px;
+  }
   
   /* Column container */
   .row {  
@@ -57,6 +71,7 @@
     flex-wrap: wrap;
     overflow: hidden;
     width: 100%;
+    line-height: 25px;
   }
   
   /* Create two unequal columns that sits next to each other */
@@ -76,6 +91,18 @@
     padding: 20px;
     width: 100%;
   }
+
+  .right-side a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .right-side a:hover {
+    color: #91010B;
+    text-decoration: underline;
+  }
   
   /* Main column */
   .main {   
@@ -94,6 +121,20 @@
     width: 100%;
     height: 100%;
     max-width: 800px;
+  }
+
+  address {
+    font-style: normal;
+  }
+
+  address a {
+    text-decoration: none;
+    color: black;
+  }
+
+  address a:hover {
+    color: #91010B;
+    text-decoration: underline;
   }
 
   /* Footer */
