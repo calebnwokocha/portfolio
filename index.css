@@ -44,7 +44,7 @@
   }
 
   .middle-container {
-    width: 1000px;
+    width: 100%;
     margin: auto;
   }
   
@@ -55,7 +55,8 @@
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     overflow: hidden;
-    max-width: 100vh;
+    max-width: 1000px;
+    margin: auto;
     line-height: 25px;
     min-height: 100vh; /* will cover the 100% of viewport */
   }
