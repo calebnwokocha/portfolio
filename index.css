@@ -7,29 +7,52 @@ body {
   padding: 20px;
   width: 550px;
   height: 100%;
-  position:fixed;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
+}
+
+hr {
+  border-color: #E71C31;
 }
 
 a {
-  color: #E71C31;
+  color: blue;
+  font-style: normal;
   text-decoration: none;
+  font-weight: normal;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-#top-container  {
+#first-container, #second-container {
   overflow: hidden;
 }
 
 .left-side {
   width: 350px;
   position: absolute;
+  margin-top: 0px;
+}
+
+#email {
+  font-style: italic;
+}
+
+#phone {
+  font-style: italic;
+}
+
+#linkedin {
+  font-style: italic;
+}
+
+#github {
+  font-style: italic;
+}
+
+#cv {
+  font-weight: bold;
+  margin-top: 30px;
 }
 
 .right-side {
@@ -42,4 +65,7 @@ a:hover {
 .right-side img {
   width: 200px;
   margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
+
