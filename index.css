@@ -7,9 +7,24 @@ body {
   padding: 20px;
   width: 550px;
   height: 100%;
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
 }
 
-#top-container {
+a {
+  color: #E71C31;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#top-container  {
+  overflow: hidden;
 }
 
 .left-side {
@@ -26,5 +41,5 @@ body {
 
 .right-side img {
   width: 200px;
-  margin-top: 25px;
+  margin-top: 20px;
 }
