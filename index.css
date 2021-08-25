@@ -10,6 +10,7 @@ body {
 }
 
 hr {
+  margin-top: 135px;
   border-color: #E71C31;
 }
 
@@ -26,6 +27,7 @@ a:hover {
 
 #first-container, #second-container {
   overflow: hidden;
+  min-height: 400px;
 }
 
 .left-side {
