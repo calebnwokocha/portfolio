@@ -10,7 +10,7 @@ body {
 }
 
 hr {
-  margin-top: 70px;
+  margin-top: 135px;
   border-color: #E71C31;
 }
 
@@ -46,15 +46,11 @@ a:hover {
 
 #linkedin {
   font-style: italic;
+  margin-bottom: 30px;
 }
 
-#github {
-  font-style: italic;
-}
-
-#cv {
+#cv, #github {
   font-weight: bold;
-  margin-top: 30px;
 }
 
 .right-side {
